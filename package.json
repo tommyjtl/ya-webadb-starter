@@ -1,0 +1,83 @@
+{
+  "name": "ya-webadb-starter",
+  "author": {
+    "name": "Tommy Jing-Tao Liu",
+    "email": "i@tjtl.io"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.38",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/streamsaver": "^2.0.1",
+    "@types/w3c-web-usb": "^1.0.6",
+    "@yume-chan/adb": "file:../ya-webadb/libraries/adb",
+    "@yume-chan/adb-credential-web": "file:../ya-webadb/libraries/adb-credential-web",
+    "@yume-chan/adb-daemon-direct-sockets": "file:../ya-webadb/libraries/adb-daemon-direct-sockets",
+    "@yume-chan/adb-daemon-webusb": "file:../ya-webadb/libraries/adb-daemon-webusb",
+    "@yume-chan/adb-daemon-ws": "file:../ya-webadb/libraries/adb-daemon-ws",
+    "@yume-chan/adb-scrcpy": "file:../ya-webadb/libraries/adb-scrcpy",
+    "@yume-chan/adb-server-node-tcp": "file:../ya-webadb/libraries/adb-server-node-tcp",
+    "@yume-chan/android-bin": "file:../ya-webadb/libraries/android-bin",
+    "@yume-chan/aoa": "file:../ya-webadb/libraries/aoa",
+    "@yume-chan/b-tree": "file:../ya-webadb/libraries/b-tree",
+    "@yume-chan/dataview-bigint-polyfill": "file:../ya-webadb/libraries/dataview-bigint-polyfill",
+    "@yume-chan/event": "file:../ya-webadb/libraries/event",
+    "@yume-chan/pcm-player": "file:../ya-webadb/libraries/pcm-player",
+    "@yume-chan/scrcpy": "file:../ya-webadb/libraries/scrcpy",
+    "@yume-chan/scrcpy-decoder-tinyh264": "file:../ya-webadb/libraries/scrcpy-decoder-tinyh264",
+    "@yume-chan/scrcpy-decoder-webcodecs": "file:../ya-webadb/libraries/scrcpy-decoder-webcodecs",
+    "@yume-chan/stream-extra": "file:../ya-webadb/libraries/stream-extra",
+    "@yume-chan/struct": "file:../ya-webadb/libraries/struct",
+    "@yume-chan/tabby-launcher": "file:../ya-webadb/libraries/tabby-launcher",
+    "@yume-chan/tabby-tango": "file:../ya-webadb/libraries/tabby-tango",
+    "antd": "^5.6.4",
+    "comlink": "^4.4.1",
+    "immer": "^10.0.2",
+    "install": "^0.13.0",
+    "npm": "^9.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "xterm": "^5.2.1",
+    "xterm-addon-fit": "^0.7.0",
+    "xterm-addon-search": "^0.12.0",
+    "xterm-addon-webgl": "^0.15.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "opera >= 54"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
