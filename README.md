@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![](./screenshot.jpeg)
+
 A minimal starter boilerplate for [`ya-webadb`](https://github.com/yume-chan/ya-webadb/blob/main/libraries/adb/README.md) using React and Redux Toolkit in TypeScript. This project demonstrate the uses of following features as modularized React components:
 ```
 ./src/components/

@@ -125,14 +125,13 @@ const FileManagerReload: React.FC = () => {
         currentLs.push(item);
       }
 
-      // currentLs = filterAndSortItems(currentLs, [
-      //   ".",
-      //   "..",
-      //   "__pycache__",
-      //   "System Volume Information",
-      // ]);
+      currentLs = filterAndSortItems(currentLs, [
+        ".",
+        "..",
+      ]);
 
       dispatch(updateCurrentFileList(currentLs));
+      
       // console.table(currentLs);
       // openNotificationWithIcon(
       //   api,
